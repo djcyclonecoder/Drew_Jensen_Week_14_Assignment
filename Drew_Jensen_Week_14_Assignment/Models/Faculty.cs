@@ -19,5 +19,10 @@ namespace Drew_Jensen_Week_14_Assignment.Models
         public string FacLastName { get; set; }
 
         public virtual ICollection<FacultyClass> FacultyClasses { get; set; }
+
+        public static implicit operator Faculty(bool v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

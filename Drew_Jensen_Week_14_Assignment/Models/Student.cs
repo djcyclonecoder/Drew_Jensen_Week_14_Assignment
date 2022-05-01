@@ -7,6 +7,8 @@ namespace Drew_Jensen_Week_14_Assignment.Models
 {
     public partial class Student
     {
+        // woopsy daisies
+        // woopsy daisies
         public Student()
         {
             StudentSchedules = new HashSet<StudentSchedule>();

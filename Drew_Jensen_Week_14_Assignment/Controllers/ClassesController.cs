@@ -50,6 +50,11 @@ namespace Drew_Jensen_Week_14_Assignment.Controllers
             return @class;
         }
 
+        //public List<Product> GetClass()
+        //{
+        //    throw new NotImplementedException();
+        //}
+
         // PUT: api/Classes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
